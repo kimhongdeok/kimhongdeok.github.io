@@ -467,6 +467,7 @@ function pubItem(p, korean){
     const vol = p.v ? ", "+esc(p.v) : "";
     const note = p.n ? '<div class="note">'+esc(p.n)+'</div>' : "";
     let links = p.doi ? '<a class="btn" href="https://doi.org/'+esc(p.doi)+'" data-doi="'+esc(p.doi)+'" target="_blank" rel="external nofollow noopener">DOI</a>' : "";
+    if (p.pdf)   links += '<a class="btn" href="'+esc(p.pdf)+'" download rel="noopener">PDF</a>';
     if (p.cover) links += '<a class="btn" href="'+esc(p.cover)+'" target="_blank" rel="external nofollow noopener">Cover</a>';
     return '<li><div class="title">'+esc(p.t)+'</div><div class="author">'+fmtAuthors(p.a)+'</div>'+
       '<div class="periodical"><em>'+esc(p.j)+'</em>'+vol+', '+esc(p.y)+'</div>'+note+

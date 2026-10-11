@@ -46,6 +46,12 @@
 표지 이미지(jpg/png)를 저장소 `img` 폴더에 올린 뒤, 해당 논문 항목에 `coverImg:"img/파일명.jpg"` 를 적으면
 Publications 상단에 썸네일이 자동으로 나타납니다. 썸네일을 누르면 해당 논문으로 이동합니다.
 
+### 논문 PDF 다운로드 버튼
+PDF 파일을 저장소 `pdf` 폴더에 올린 뒤, 해당 논문 항목에 `pdf:"pdf/파일명.pdf"` 를 적으면
+DOI 버튼 옆에 PDF 버튼이 생깁니다. 파일명은 영문·숫자·밑줄만 쓰는 것이 안전합니다 (예: `Kim_2024_Macromolecules.pdf`).
+저작권 참고: 출판사 최종본(publisher PDF)은 대부분 공개가 제한되고, 저자 최종 원고(accepted manuscript)는 허용되는 경우가 많습니다.
+오픈액세스 논문은 출판사 PDF를 그대로 올려도 됩니다. 저널별 정책은 Sherpa Romeo(sherpa.ac.uk)에서 확인할 수 있습니다.
+
 ### 투고 중 논문 수
 `const IN_SUBMISSION_COUNT = 13;` 의 숫자만 바꿉니다.
 

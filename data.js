@@ -120,7 +120,9 @@ const RESEARCH = [
    n: 비고 (Front Cover, Invited article 등)  cover: 표지 링크 (선택)
    coverImg: 표지 이미지 파일 (예: "img/cover_polymj.jpg") → Publications 상단 커버 갤러리에 자동 표시.
              이미지 파일을 저장소에 올린 뒤 이 항목만 추가하면 됨. 썸네일을 누르면 해당 논문으로 이동.
-   coverLabel: 갤러리 아래 표시 문구 (선택). 없으면 n 에서 "Front Cover" 등 Cover 부분을 자동 사용. */
+   coverLabel: 갤러리 아래 표시 문구 (선택). 없으면 n 에서 "Front Cover" 등 Cover 부분을 자동 사용.
+   pdf: 논문 PDF 파일 (예: "pdf/Kim_2024_Macromolecules.pdf") → DOI 옆에 PDF 다운로드 버튼이 생김.
+        저장소에 pdf 폴더를 만들어 파일을 넣고 이 항목만 추가. 없으면 버튼이 안 보임. */
 const PUBS = [
  {t:"Ballistic-like thermal transport between fillers in highly conductive stretchable nanocomposites",
   a:["C. Muhammed Ajmal","Seongsu Cheon","Yeongbin Kim","Hongdeok Kim","Joonmyung Choi","Seunghyun Baik"],
