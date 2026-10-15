@@ -259,6 +259,7 @@ const PATENTS = [
 /* ---------- Conferences ----------
    t: 제목  a: 저자 배열 (발표자 뒤에 *)  c: 학회명  loc: 장소  d: 연월 */
 const INTL_CONF = [
+ {t:"Spatially selective polarization behavior of PVDF nanocomposites under electric field and nanoparticle interaction", a:["Yeongbin Kim*","Hongdeok Kim","Joonmyung Choi"], c:"15th International Conference on Nanostructures, Nanomaterials and Nanoengineering (ICNNN 2026)", loc:"Tokyo, Japan", d:"2026.10"},
  {t:"Molecular investigation of the cross-sectional morphology in CNT-derived carbon fibers", a:["Yuri Jeon*", "Hongdeok Kim", "Joonmyung Choi"], c:"15th International Conference on Nanostructures, Nanomaterials and Nanoengineering (ICNNN 2026)", loc:"Tokyo, Japan", d:"2026.10"},
  {t:"Computational interpretation of shape memory epoxy: Processing and its operation", a:["Yeongbin Kim*", "Hongdeok Kim", "Joonmyung Choi"], c:"16th World Congress on Computational Mechanics (WCCM 2024)", loc:"Vancouver, Canada", d:"2024.07"},
  {t:"Interface mechanics of LCP/MWCNT nanocomposites during nematic-to-isotropic phase transition: A molecular dynamics study", a:["Hongdeok Kim*", "Joonmyung Choi"], c:"Global Conference on Innovation Materials 2023 (GCIM 2023)", loc:"Jeju ICC, South Korea", d:"2023.06"},
