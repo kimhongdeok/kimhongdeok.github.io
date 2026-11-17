@@ -124,6 +124,9 @@ const RESEARCH = [
    pdf: 논문 PDF 파일 (예: "pdf/Kim_2024_Macromolecules.pdf") → DOI 옆에 PDF 다운로드 버튼이 생김.
         저장소에 pdf 폴더를 만들어 파일을 넣고 이 항목만 추가. 없으면 버튼이 안 보임. */
 const PUBS = [
+ {t:"Multiscale prediction of sintered polymer powder mechanics via particle-detachment interface potentials",
+  a:["Sihyun Kim","Hongdeok Kim*","Joonmyung Choi"],
+  j:"Materials & Design", y:"2027", v:"Accepted", doi:""},   // DOI·권호·pdf는 출판 후 추가
  {t:"Ballistic-like thermal transport between fillers in highly conductive stretchable nanocomposites",
   a:["C. Muhammed Ajmal","Seongsu Cheon","Yeongbin Kim","Hongdeok Kim","Joonmyung Choi","Seunghyun Baik"],
   j:"Advanced Functional Materials", y:"2026", v:"e77937", doi:"10.1002/adfm.77937", pdf:"pdf/36_Ajmal_2026_AdvFunctMater.pdf"},
