@@ -124,6 +124,9 @@ const RESEARCH = [
    pdf: 논문 PDF 파일 (예: "pdf/Kim_2024_Macromolecules.pdf") → DOI 옆에 PDF 다운로드 버튼이 생김.
         저장소에 pdf 폴더를 만들어 파일을 넣고 이 항목만 추가. 없으면 버튼이 안 보임. */
 const PUBS = [
+ {t:"Molecular investigation on the transformation of carbon nanotube bundles into carbon fibers during annealing",
+  a:["Yuri Jeon","Hongdeok Kim*","Joonmyung Choi"],
+  j:"Small Methods", y:"2027", v:"Accepted", doi:""},   // DOI·권호·pdf는 출판 후 추가
  {t:"Multiscale prediction of sintered polymer powder mechanics via particle-detachment interface potentials",
   a:["Sihyun Kim","Hongdeok Kim*","Joonmyung Choi"],
   j:"Materials & Design", y:"2027", v:"Accepted", doi:""},   // DOI·권호·pdf는 출판 후 추가
@@ -237,7 +240,7 @@ const PUBS = [
   j:"Polymer", y:"2021", v:"218, 123525", doi:"10.1016/j.polymer.2021.123525", pdf:"pdf/01_Kim_2021_Polymer.pdf"},
 ];
 
-const IN_SUBMISSION_COUNT = 16;   // 투고/심사 중 논문 수 (숫자만 표시)
+const IN_SUBMISSION_COUNT = 15;   // 투고/심사 중 논문 수 (숫자만 표시)
 
 /* 국내 저널, 단행본 등 다른 종류의 논문이 생기면 여기에 PUBS와 같은 형식으로 추가 */
 const DOMESTIC_PUBS = [
