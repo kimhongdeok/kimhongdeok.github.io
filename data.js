@@ -129,7 +129,7 @@ const PUBS = [
   j:"Small Methods", y:"2027", v:"Accepted", doi:""},   // DOI·권호·pdf는 출판 후 추가
  {t:"Multiscale prediction of sintered polymer powder mechanics via particle-detachment interface potentials",
   a:["Sihyun Kim","Hongdeok Kim*","Joonmyung Choi"],
-  j:"Materials & Design", y:"2027", v:"Accepted", doi:""},   // DOI·권호·pdf는 출판 후 추가
+  j:"Materials & Design", y:"2026", v:"272, 117564", doi:"10.1016/j.matdes.2026.117564"},   // pdf는 파일 확보 후 추가
  {t:"Ballistic-like thermal transport between fillers in highly conductive stretchable nanocomposites",
   a:["C. Muhammed Ajmal","Seongsu Cheon","Yeongbin Kim","Hongdeok Kim","Joonmyung Choi","Seunghyun Baik"],
   j:"Advanced Functional Materials", y:"2026", v:"e77937", doi:"10.1002/adfm.77937", pdf:"pdf/36_Ajmal_2026_AdvFunctMater.pdf"},
