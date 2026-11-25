@@ -132,7 +132,7 @@ const PUBS = [
   j:"Materials & Design", y:"2026", v:"272, 117564", doi:"10.1016/j.matdes.2026.117564", pdf:"pdf/37_Kim_2026_MaterDesign.pdf"},
  {t:"Ballistic-like thermal transport between fillers in highly conductive stretchable nanocomposites",
   a:["C. Muhammed Ajmal","Seongsu Cheon","Yeongbin Kim","Hongdeok Kim","Joonmyung Choi","Seunghyun Baik"],
-  j:"Advanced Functional Materials", y:"2026", v:"e77937", doi:"10.1002/adfm.77937", pdf:"pdf/36_Ajmal_2026_AdvFunctMater.pdf"},
+  j:"Advanced Functional Materials", y:"2026", v:"36(78), e77937", doi:"10.1002/adfm.77937", pdf:"pdf/36_Ajmal_2026_AdvFunctMater.pdf"},
  {t:"Structure-inhibition relationship of vapor-deposited alkylsilane monolayers in area-selective atomic layer deposition",
   a:["Eunji Sim","Jungsub Lee","Somang Koo","Hongdeok Kim","Suk Gyu Hahm","Myongjong Kwon","Joonmyung Choi","Byungha Park","Kyuwook Ihm"],
   j:"Langmuir", y:"2026", v:"42(30), 22128–22136", doi:"10.1021/acs.langmuir.6c02347", pdf:"pdf/35_Sim_2026_Langmuir.pdf", n:"Co-worked with Samsung Electronics"},
