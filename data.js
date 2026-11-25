@@ -126,7 +126,7 @@ const RESEARCH = [
 const PUBS = [
  {t:"Molecular investigation on the transformation of carbon nanotube bundles into carbon fibers during annealing",
   a:["Yuri Jeon","Hongdeok Kim*","Joonmyung Choi"],
-  j:"Small Methods", y:"2027", v:"Accepted", doi:""},   // DOI·권호·pdf는 출판 후 추가
+  j:"Small Methods", y:"2026", v:"e71233", doi:"10.1002/smtd.71233", pdf:"pdf/38_Jeon_2026_SmallMethods.pdf"},   // Early View: 호 배정 후 v를 "권(호), e71233"로 갱신
  {t:"Multiscale prediction of sintered polymer powder mechanics via particle-detachment interface potentials",
   a:["Sihyun Kim","Hongdeok Kim*","Joonmyung Choi"],
   j:"Materials & Design", y:"2026", v:"272, 117564", doi:"10.1016/j.matdes.2026.117564", pdf:"pdf/37_Kim_2026_MaterDesign.pdf"},
