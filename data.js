@@ -240,7 +240,7 @@ const PUBS = [
   j:"Polymer", y:"2021", v:"218, 123525", doi:"10.1016/j.polymer.2021.123525", pdf:"pdf/01_Kim_2021_Polymer.pdf"},
 ];
 
-const IN_SUBMISSION_COUNT = 15;   // 투고/심사 중 논문 수 (숫자만 표시)
+const IN_SUBMISSION_COUNT = 17;   // 투고/심사 중 논문 수 (숫자만 표시)
 
 /* 국내 저널, 단행본 등 다른 종류의 논문이 생기면 여기에 PUBS와 같은 형식으로 추가 */
 const DOMESTIC_PUBS = [
